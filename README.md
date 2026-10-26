@@ -65,13 +65,6 @@ capstone_back/demo/src/main/java/com/example/demo
 └── config/       # SecurityConfig, WebConfig (CORS)
 ```
 
-## 🙋‍♀️ 담당 역할 (조해리)
-- 회원 API와 서비스 (회원가입·로그인·아이디/비밀번호 찾기·마이페이지)
-- Spring Security와 JWT 인증 설정
-- 웹캠·알람 로그 API
-- **주간 통계 로직** (`ChartDataService`): 요일별 사용 시간·알람 횟수 집계, 바른 자세 비율 계산
-- 전체 이용자 수 API
-
 ## ▶️ 실행 방법
 
 DB 접속 정보와 JWT 키는 **환경변수**로 넣어줘야 합니다.
